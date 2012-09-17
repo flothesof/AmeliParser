@@ -1,0 +1,3 @@
+﻿This is a parsing program that uses a result page from a database search on http://ameli-direct.ameli.fr/
+The input is given by the source of the results html page saved in text format (see example files labeled as input_*).
+The output is a CSV file containing the fields name,phone,carte vitale,convention,location for the relevant search results about health professionals.
