@@ -1,0 +1,60 @@
+<div onclick="document.location.href = '/professionnels-de-sante/recherche-1/fiche-detaillee-B7c1mzA5NjK1.html'" class="liste-acte-item">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                    	                                    <div class="medecin-item-nom-recherche">
+											<a href="/professionnels-de-sante/recherche-1/fiche-detaillee-B7c1mzA5NjK1.html"><span>&gt;&nbsp;SARTENE RICHARD</span></a>
+											<a class="no-underline" href="/professionnels-de-sante/recherche-1/fiche-detaillee-B7c1mzA5NjK1.html"><img class="loupe" src="/resources_ver/20120413154230/images/corps/picto_loupe.gif "></a>
+										</div>
+	                                    <div class="medecin-item-prof-recherche">
+	                                        &nbsp;	                                    </div>
+	                                    <div class="medecin-item-tel-recherche">
+	                                        01&nbsp;45&nbsp;42&nbsp;95&nbsp;43	                                    </div>
+	                                    <div class="clear"></div>
+	                                                                 </div>
+                                <div class="medecin-item-desc-line">
+                                    	                                    <div class="medecin-item-nom-recherche">
+	                                        3B RUE SEVERO<br>75014 PARIS	                                    </div>
+	                                    <div class="medecin-item-prof-recherche">
+	                                    	&nbsp;
+	                                    		                                        Carte vitale : Non	                                        	                                    </div>
+	                                    <div class="medecin-item-tel-recherche">
+	                                    	Conventionné secteur 1	                                    </div>
+	                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-1/fiche-detaillee-B7c1kTMzNDWz.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                    	                                    <div class="medecin-item-nom-recherche">
+											<a href="/professionnels-de-sante/recherche-1/fiche-detaillee-B7c1kTMzNDWz.html"><span>&gt;&nbsp;LOUIS LERNER NICOLE</span></a>
+											<a href="/professionnels-de-sante/recherche-1/fiche-detaillee-B7c1kTMzNDWz.html" class="no-underline"><img src="/resources_ver/20120413154230/images/corps/picto_loupe.gif" class="loupe" /></a>
+										</div>
+	                                    <div class="medecin-item-prof-recherche">
+	                                        &nbsp;	                                    </div>
+	                                    <div class="medecin-item-tel-recherche">
+	                                        	                                    </div>
+	                                    <div class="clear"></div>
+	                                                                 </div>
+                                <div class="medecin-item-desc-line">
+                                    	                                    <div class="medecin-item-nom-recherche">
+	                                        37 RUE DE LA TOMBE ISSOIRE<br />75014 PARIS	                                    </div>
+	                                    <div class="medecin-item-prof-recherche">
+	                                    	&nbsp;
+	                                    		                                        Carte vitale : Non	                                        	                                    </div>
+	                                    <div class="medecin-item-tel-recherche">
+	                                    	Conventionné secteur 1	                                    </div>
+	                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
