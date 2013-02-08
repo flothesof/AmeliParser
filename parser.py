@@ -8,17 +8,37 @@ Created on Thu Jun 07 08:59:52 2012
 import sys, codecs, pdb
 from HTMLParser import HTMLParser
 
-# create a subclass and override the handler methods
-class MyHTMLParser(HTMLParser):
-    def handle_starttag(self, tag, attrs):
-        print "Encountered a start tag:", tag
-        print "Has attributes:", attrs
-        
-    def handle_endtag(self, tag):
-        print "Encountered an end tag :", tag
-    def handle_data(self, data):
-        print "Encountered some data  :", data
+def win32_unicode_argv():
+    """Uses shell32.GetCommandLineArgvW to get sys.argv as a list of Unicode
+    strings.
 
+    Versions 2.x of Python don't support Unicode in sys.argv on
+    Windows, with the underlying Windows API instead replacing multi-byte
+    characters with '?'.
+    """
+
+    from ctypes import POINTER, byref, cdll, c_int, windll
+    from ctypes.wintypes import LPCWSTR, LPWSTR
+
+    GetCommandLineW = cdll.kernel32.GetCommandLineW
+    GetCommandLineW.argtypes = []
+    GetCommandLineW.restype = LPCWSTR
+
+    CommandLineToArgvW = windll.shell32.CommandLineToArgvW
+    CommandLineToArgvW.argtypes = [LPCWSTR, POINTER(c_int)]
+    CommandLineToArgvW.restype = POINTER(LPWSTR)
+
+    cmd = GetCommandLineW()
+    argc = c_int(0)
+    argv = CommandLineToArgvW(cmd, byref(argc))
+    if argc.value > 0:
+        # Remove Python executable and commands if present
+        start = argc.value - len(sys.argv)
+        return [argv[i] for i in
+                xrange(start, argc.value)]
+
+
+# create a subclass and override the handler methods
 class AmeliHTMLParser(HTMLParser):
     def __init__(self):
         HTMLParser.__init__(self)
@@ -52,47 +72,56 @@ class AmeliHTMLParser(HTMLParser):
             self.data[self.data_type].append(data)
     
 if len(sys.argv) > 1:
-    pass
+    argv = win32_unicode_argv()
+    filename = unicode(argv[1])
+    print filename
 else:
-    filename = u'input_kiné_75014.txt'
-    savename = 'output_' + filename[6:-4] + '.csv'
-    lines = codecs.open(filename).readlines()
-    
-    # instantiate the parser and feed it some HTML
-    ameli_parser = AmeliHTMLParser()
-    
-    for line in lines: #test_line 
-        ameli_parser.feed(line)
+    filename = u'input_ophtalmo_75014.txt'
 
-    data = {}    
-    # les cartes vitales 
-    data['vitale'] = filter(lambda x: x!='', map(str.strip, ameli_parser.data['prof']))
-    
-    #les numéros de téléphone
-    s = ''.join(ameli_parser.data['tel'])
-    s = map(str.strip, s.split('\t'))
-    data['tel'] = []   
-    data['convention'] = []
-    for i in range(len(s)):
-        if i % 5 == 1:
-            data['tel'].append(s[i])
-        if i % 5 == 4:
-            data['convention'].append(s[i])    
-    
-    # les noms et adresses
-    s = ' '.join(ameli_parser.data['nom'])    
-    s = map(str.strip, s.split('\t'))
-    data['nom'] = []
-    data['adresse'] = []
-    for i in range(len(s)):
-        if i % 34 == 11:
-            data['nom'].append(s[i])
-        if i % 34 == 33:
-            data['adresse'].append(s[i])
+savename = 'output_' + filename[6:-4] + '.csv'
+lines = codecs.open(filename, "r", "utf-8").readlines()
 
-    with codecs.open(savename, 'w') as f:
-        f.writelines('name,phone,carte vitale,convention,location\n')
-        for i in range(len(data['adresse'])):        
-            f.writelines(','.join([data['nom'][i], data['tel'][i],
-                                   data['vitale'][i], data['convention'][i],
-                                    data['adresse'][i]]) + '\n')
+# instantiate the parser and feed it some HTML
+ameli_parser = AmeliHTMLParser()
+
+for line in lines: #test_line 
+#    line = line.encode()
+    ameli_parser.feed(line)
+
+#==============================================================================
+# # extract data and write output file
+#==============================================================================
+
+# carte vitale
+data = {}    
+data['vitale'] = filter(lambda x: x!='', map(unicode.strip, ameli_parser.data['prof']))
+
+# phone numbers and conventions
+s = ''.join(ameli_parser.data['tel'])
+s = map(unicode.strip, s.split('\n'))
+data['tel'] = []   
+data['convention'] = []
+for i in range(1, len(s)):
+    if i % 2 == 1:
+        data['tel'].append(s[i])
+    if i % 2 == 0:
+        data['convention'].append(s[i])    
+
+# names and addresses
+s = ' '.join(ameli_parser.data['nom'])    
+s = map(unicode.strip, s.split('\n'))
+data['nom'] = []
+data['adresse'] = []
+for i in range(1, len(s)):
+    if (i - 1) % 4 == 0:
+        data['nom'].append(s[i])
+    if (i - 1) % 4 == 3:
+        data['adresse'].append(s[i])
+
+# write data to file
+with codecs.open(savename, 'w', 'utf-8') as f:
+    f.writelines('name,phone,carte vitale,convention,location\n')
+    for i in range(len(data['adresse'])):        
+        f.writelines(','.join([data['nom'][i], data['tel'][i],
+                               data['vitale'][i], data['convention'][i],
+                                data['adresse'][i]]) + '\n')
