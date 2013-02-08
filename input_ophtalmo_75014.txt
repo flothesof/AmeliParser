@@ -1,0 +1,866 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<title>ameli-direct - Je choisis avant de consulter</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta name="robots" content="noindex, nofollow" /><link href="/resources_ver/20121219191928/css/thickbox.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/resources_ver/20121219191928/css/styles.css" media="screen" rel="stylesheet" type="text/css" />
+<!--[if lt IE 7]> <link href="/resources_ver/20121219191928/css/styles_ie6_screen.css" media="screen" rel="stylesheet" type="text/css" /><![endif]--><script type="text/javascript" src="/resources_ver/20121219191928/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/resources_ver/20121219191928/js/thickbox.js"></script></head>
+<body>
+<div id="site">
+	<div id="entete">
+	<div class="logo">
+		<a href="/" title=""><img alt="L'Assurance Maladie" src="/resources_ver/20121219191928/images/accueil/logo_am.gif"/></a>
+	</div>
+	<div class="encart_haut_ameli">
+		<div class="acces">
+			<a target="_blank" href="https://assure.ameli.fr/">Accéder à mon compte</a>
+		</div>
+		<div class="ouvrir">
+			<a target="_blank" href="https://assure.ameli.fr/">Ouvrir mon compte</a>
+		</div>
+	</div>
+</div>	<div id="corps">
+        		<div id="filariane">
+			<p><span><a href="/">Accueil</a></span> &gt; <span><a href="/nouvelle-recherche/professionnels-de-sante.html">Professionnels de santé</a></span> &gt; <span>Résultats de la recherche</span></p>
+		</div>
+		<script type="text/javascript">
+<!--
+$(document).ready(function (event) {
+    $('.etb-hover .liste-acte-item').hover(
+        function(){
+            $(this).addClass('liste-acte-item-hover');
+            $(this).find('.loupe').attr('src','/resources_ver/20121219191928/images/corps/picto_loupe_vert.gif ');
+        },
+        function(){
+            $(this).removeClass('liste-acte-item-hover');
+            $(this).find('.loupe').attr('src','/resources_ver/20121219191928/images/corps/picto_loupe.gif ');
+        }
+    );
+});
+// -->
+</script>
+<div class="print-result"><a href="?print" target="_blank">Imprimer la liste de résultats</a></div>
+<div class="clear"></div>
+<div class="contenucentral">
+	<div class="contenuhaut"><div></div></div>
+	<div class="contenucentre">
+		<div class="contenucentre2">
+            			<div class="recaprech">
+				<div class="recaprech-haut"><div></div></div>
+				<div class="recaprech-centre">
+					<div class="recaprech-centre2">
+                    	<div class="intro">
+                            <p>Vous avez 24 résultats correspondant à votre recherche                        	</p>
+                                                        <p class="big">Profession&nbsp;: <span class="bold italic">Ophtalmologiste</span></p>
+                                                        <p class="big">Lieu&nbsp;: <span class="bold italic">75014</span></p>
+                                                        <div class="mention_activite_liberale">Dans la liste ci-dessous, ne figurent que les professionnels de santé qui exercent une activité libérale.</div>
+                                                        <div class="zonebouton">
+                                <div class="int">
+                                    <a href="/modifier_votre_recherche_4.html" class="bouton">
+                                        <span>Modifier votre recherche</span>
+                                    </a>
+                                    <a href="/nouvelle-recherche/professionnels-de-sante.html" class="bouton">
+                                        <span>Nouvelle recherche</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+				<div class="recaprech-bas"><div></div></div>
+			</div>
+						<div class="fiche-ps etb-hover">
+                                <div class="famille-etablissement-no-padding">
+                    <div class="bloc-info-recherche-etablissement">
+                        Cliquez sur le nom du professionnel de votre choix pour connaître ses actes et tarifs.                    </div>
+                                        <div class="bloc-tri-recherche">
+                        <form id="form_tri" action="">
+	                        <label for="form_tri_select">Trier par</label>
+	                        <input type="hidden" name="page" value="1" />
+	                        <select id="form_tri_select" name="sorting" onchange="document.getElementById('form_tri').submit()">
+	                        	<option value="aleatoire"> - </option>                        				                        		<option value="nom_asc">Nom</option>
+	                        	                        				                        		<option value="carte-vitale_desc">Carte Vitale</option>
+	                        	                        				                        		<option value="secteur_asc">Secteur conventionnel</option>
+	                        		                        </select>
+                        </form>
+                    </div>
+                                        <div class="bloc-nb-result-recherche">
+                        		                <form id="results_per_page" action="/professionnels-de-sante/recherche-4/liste-resultats-page-1-par_page-0-tri-aleatoire-f4780042b0650e2d2b24b9b29093d38e.html" method="get">
+							<label for="resultats_par_page">Nombre de résultats par page :</label>
+							<select id="resultats_par_page" name="results_per_page" onchange="document.getElementById('results_per_page').submit()">
+																<option value="20">20</option>
+																<option value="0" selected="selected">Tous</option>
+															</select>
+						</form>
+						                    </div>
+                    <div class="clear"></div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljc4NjG1-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljc4NjG1-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>KELLER</strong> PIERRE</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljc4NjG1-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;35&nbsp;43&nbsp;33                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        3 RUE VICTOR CONSIDERANT<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTY0MTaz-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTY0MTaz-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>DRYLEWICZ</strong> JOEL</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTY0MTaz-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;45&nbsp;45&nbsp;32&nbsp;12                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        87 RUE DE GERGOVIE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 1                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljU3MjKz-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljU3MjKz-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>LE QUOY</strong> OLIVIER</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljU3MjKz-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;35&nbsp;31&nbsp;48                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        29 RUE D ALESIA<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTYwMDuy-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTYwMDuy-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>BINN DEUTSCHER</strong> SYLVIE</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTYwMDuy-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;45&nbsp;65&nbsp;04&nbsp;24                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        12 RUE DE LA TOMBE ISSOIRE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDUzODC3-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDUzODC3-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>MONNET</strong> DOMINIQUE</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDUzODC3-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;58&nbsp;41&nbsp;21&nbsp;91                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        27 RUE DU FAUBOURG SAINT JACQUES<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTI2Njq6-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTI2Njq6-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>COMMEAU</strong> DOMINIQUE</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTI2Njq6-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;45&nbsp;41&nbsp;73&nbsp;63                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        22 RUE ERNEST CRESSON<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljswNTqy-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljswNTqy-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>CHAMOUNI</strong> HUBERT</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljswNTqy-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                                                            </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        95 AVENUE DU GAL LECLERC<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljUxNze6-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljUxNze6-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>SULMAN</strong> JEAN JACQUES</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljUxNze6-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;40&nbsp;47&nbsp;00&nbsp;00                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        90 AVENUE DU MAINE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mjMzMDe6-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mjMzMDe6-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>MAGNANI</strong> MATTEO</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mjMzMDe6-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                                                            </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        29 RUE SARRETTE.<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mzE5MDa2-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mzE5MDa2-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>GIRARD DECIS</strong> ANAIS</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mzE5MDa2-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        06&nbsp;20&nbsp;37&nbsp;21&nbsp;86                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        10 RUE DAGUERRE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kDsyMDux-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kDsyMDux-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>MEYER</strong> MARIE CLAUDE</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kDsyMDux-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;20&nbsp;62&nbsp;55                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        29 BOULEVARD E.QUINET<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mjMxMzqx-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mjMxMzqx-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>SELLAM</strong> MICKAEL</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mjMxMzqx-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                                                            </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        29 RUE SARRETTE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDc0NDqz-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDc0NDqz-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>TAZARTES</strong> HOUDA</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDc0NDqz-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;42&nbsp;18&nbsp;01&nbsp;61                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        5 BOULEVARD EDGARD QUINET<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 1                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTo5MTe6-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTo5MTe6-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>VEYRIE</strong> DANIEL</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1kTo5MTe6-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;27&nbsp;10&nbsp;69                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        79 AVENUE DU GAL LECLERC<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljUyMjS3-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljUyMjS3-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>KRETZ</strong> GILLES</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljUyMjS3-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;40&nbsp;44&nbsp;65&nbsp;30                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        150 RUE R LOSSERAND<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljI1Nzay-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljI1Nzay-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>CHARLOT</strong> JEAN CLAUDE</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljI1Nzay-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;22&nbsp;42&nbsp;33                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        228 BOULEVARD RASPAIL<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzY0MDK3-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzY0MDK3-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>TAZARTES</strong> MICHEL</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzY0MDK3-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;20&nbsp;91&nbsp;75                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        142 BOULEVARD DU MONTPARNASSE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTI2NDO3-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTI2NDO3-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>VAN WENT</strong> RICHARD</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTI2NDO3-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;27&nbsp;10&nbsp;69                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        SELARL VAN WENT<br />79 AVENUE DU GENERAL LECLERC<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzMyOTCy-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzMyOTCy-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>SARFATI</strong> ADRIEN</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzMyOTCy-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;35&nbsp;41&nbsp;03                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        10 RUE DAGUERRE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljI2NTa3-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljI2NTa3-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>FELLER</strong> MICHEL</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1ljI2NTa3-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;35&nbsp;08&nbsp;28                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        118 BOULEVARD MONTPARNASSE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDE2MDaw-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDE2MDaw-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>THAN TRONG</strong> THONG</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lDE2MDaw-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;35&nbsp;41&nbsp;03                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        10 RUE DAGUERRE<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTIzNDu7-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTIzNDu7-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>WERTHEL</strong> ANDREE LUCE</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lTIzNDu7-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;45&nbsp;42&nbsp;75&nbsp;74                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        24 AVENUE VILLEMAIN<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Oui                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzUyNDew-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzUyNDew-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>BREZIN</strong> ANTOINE</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1lzUyNDew-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;58&nbsp;41&nbsp;22&nbsp;01                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        27 RUE DU FBG SAINT JACQUES<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="liste-acte-item" onclick="document.location.href = '/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mzY1NDGy-f4780042b0650e2d2b24b9b29093d38e.html'">
+                    <div class="liste-acte-item-haut"></div>
+                    <div class="liste-acte-item-bas">
+                        <div class="contenu">
+                            <div class="acte-item">
+                                <div class="medecin-item-titre">
+                                                                        <div class="medecin-item-nom-recherche">
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mzY1NDGy-f4780042b0650e2d2b24b9b29093d38e.html"><span>&gt;&nbsp;<strong>BOUMENDIL</strong> JULIEN</span></a>
+										<a href="/professionnels-de-sante/recherche-4/fiche-detaillee-B7c1mzY1NDGy-f4780042b0650e2d2b24b9b29093d38e.html" class="no-underline"><img src="/resources_ver/20121219191928/images/corps/picto_loupe.gif" class="loupe" /></a>
+									</div>
+                                    <div class="medecin-item-prof-recherche">
+                                        &nbsp;                                    </div>
+                                    <div class="medecin-item-tel-recherche">
+                                        01&nbsp;43&nbsp;20&nbsp;91&nbsp;75                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                                <div class="medecin-item-desc-line">
+                                                                        <div class="medecin-item-nom-recherche">
+                                        142 BOULEVARD DU MONTPARNASSE.<br />75014 PARIS                                    </div>
+                                    <div class="medecin-item-prof-recherche">
+                                    	&nbsp;
+                                    	                                        Carte vitale : Non                                                                            </div>
+                                    <div class="medecin-item-tel-recherche">
+                                    	Conventionné secteur 2                                    </div>
+                                    <div class="clear"></div>
+	                                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            </div>
+            <div class="zoneboutonbottom">
+                <div class="zonebouton">
+                    <div class="int">
+                        <a href="/modifier_votre_recherche_4.html" class="bouton">
+                            <span>Modifier votre recherche</span>
+                        </a>
+                        <a href="/nouvelle-recherche/professionnels-de-sante.html" class="bouton">
+                            <span>Nouvelle recherche</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+		</div>
+	</div>
+	<div class="contenubas"><div></div></div>
+</div>
+	</div>
+	<div id="pieddepage">        <a id="lien_ameli" href="http://www.ameli.fr/" rel="external" target="_blank" title="Accéder au portail ameli.fr (nouvelle fenêtre)">
+            <img src="/resources_ver/20121219191928/images/corps/logo_ameli.gif" alt="Accéder au portail ameli.fr (nouvelle fenêtre)" />
+        </a>
+        <a id="lien_ameli_sante" href="http://www.ameli-sante.fr/" rel="external" target="_blank" title="Accéder au portail ameli santé (nouvelle fenêtre)">
+            <img src="/resources_ver/20121219191928/images/corps/logo_ameli_sante.gif" alt="Accéder au portail ameli santé (nouvelle fenêtre)" />
+        </a>
+		<a href="/fenetre-modale-xhr/dispositions_generales.html?width=700&amp;modal=true" class="thickbox" title="Dispositions générales">Dispositions générales</a>
+		<span>|</span>
+		<a href="/fenetre-modale-xhr/mentions_legales.html?width=700&amp;modal=true" class="thickbox" title="Mentions légales">Mentions légales</a>
+	</div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    tb_pathToImage = "/resources_ver/20121219191928/images/loadingAnimation.gif";    //]]>
+</script><script type="text/javascript">
+<!--
+xtnv = document;        //parent.document or top.document or document         
+xtsd = "http://logi7";
+xtsite = "475098";
+xtn2 = "1";        // level 2 site 
+xtpage = "divers::ameli-direct-externe::liste-resultats-ps";        //page name (with the use of :: to create chapters)
+xtdi = "";        //implication degree
+//-->
+</script>
+<script type="text/javascript" src="/resources_ver/20121219191928/js/xtcore.js"></script>
+<noscript>
+<img width="1" height="1" alt="" src="http://logi7.xiti.com/hit.xiti?s=475098&amp;s2=1&amp;p=divers::ameli-direct-externe::liste-resultats-ps&amp;di=&amp;" />
+</noscript></body>
+</html>
