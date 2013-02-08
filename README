@@ -2,3 +2,4 @@
 The input is given by the source of the results html page saved in text format (see example files labeled as input_*).
 The output is a CSV file containing the fields name,phone,carte vitale,convention,location for the relevant search results about health professionals.
 This information can then be imported into Google Tables so that you can graphically sort from the useful fields (convention and carte vitale) and at the same time see on the map where the relevant professionals are located.
+Usage is: python parser.py name_of_source_file_from_ameli-direct.txt
