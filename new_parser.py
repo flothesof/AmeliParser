@@ -21,21 +21,36 @@ def extract_information(block):
     phone = block.find("div", attrs={'class':"item left tel"})
     prices = block.find("div", attrs={'class':"item right type_honoraires"})
     convention = block.find("div", attrs={'class':"item right convention"})
-    return [item.get_text(' ') for item in [name, address, phone, prices, convention] if item is not None]
+    return [item.get_text(' ') if item is not None else '' for item in [name, address, phone, prices, convention]]
 
 def extract_number_of_doctors(soup):
     """
     returns the number of doctors found in the query page
     returns 0 if no doctors are found in the query
     """
-    p = re.compile(u"(\d+) résultats correspondent à votre recherche")
+    p = re.compile(u"(\d+) résultat[s]* correspond[ent]* à votre recherche")
     tags = soup.find_all(name="h1")
     for tag in tags:
         if tag.string is not None:
-            return int(p.findall(tag.string)[0])
+            res = p.findall(tag.string)
+            if len(res) > 0:
+                return int(p.findall(tag.string)[0])
     return 0
 
-def make_query(specialty, location):
+def make_multiple_query(specialty, locations):
+    """
+    queries Ameli for a given specialty of doctors in locations, which is a list
+    of postcodes
+    """
+    dfs = []
+    for location in locations:
+        df = make_single_query(specialty, location)
+        if df is not None:
+            dfs.append(df)
+        
+    return pd.concat(dfs, ignore_index=True)
+
+def make_single_query(specialty, location):
     """queries Ameli for a given specialty of doctors in a given location
     returns a pandas dataframe or None if no doctors have been found"""
     
@@ -71,4 +86,8 @@ def make_query(specialty, location):
         dfs.append(pd.DataFrame([extract_information(doc) for doc in doctors], 
                  columns=['Nom', u'Adresse', u"Téléphone", u"Honoraires", "Convention"]))
     
-    return pd.concat(dfs, ignore_index=True)
+    df = pd.concat(dfs, ignore_index=True)
+    df.insert(0, u'Specialité', specialty)
+    df.insert(1, 'Commune', pd.Series([location] * df.shape[0], index=df.index))
+    
+    return df
