@@ -1,0 +1,54 @@
+,Specialité,Commune,Nom,Adresse,Téléphone,Honoraires,Convention
+0,cardiologue,59170,BISCH  JEAN FRANCOIS,CABINET DU DR JEAN FRANCOIS BISCH 3 RUE EUGENE GUILLAUME 59170 CROIX,03 20 89 98 93,Honoraires sans dépassement,Conventionné secteur 1
+1,cardiologue,59170,BISCH  JEAN FRANCOIS,CLINIQUE DU PARC 34 AVENUE DE FLANDRE 59170 CROIX,,Honoraires sans dépassement,Conventionné secteur 1
+2,cardiologue,59170,HONORE  HERVE,CLINIQUE DU PARC 34 AVENUE DE FLANDRE 59170 CROIX,08 26 66 69 00,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+3,cardiologue,59170,HAFFREINGUE  ERIC,POLYCLINIQUE DU PARC POLYCLINIQUE DU PARC 34 AVENUE DE FLANDRE 59170 CROIX,03 20 99 41 41,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+4,cardiologue,59170,HAFTEL  YVES,CLINIQUE DU PARC 34 AVENUE DE FLANDRE 59170 CROIX,,Honoraires sans dépassement,Conventionné secteur 1
+5,cardiologue,59250,DELMOTTE  CHRISTIAN,80 RUE DE LILLE 59250 HALLUIN,03 20 37 38 50,Honoraires libres,Conventionné secteur 2
+6,cardiologue,59223,DHEEDENE  MARJORIE,CLINIQUE ST ROCH CLINIQUE ST ROCH 56 RUE DE LILLE 59223 RONCQ,03 20 69 58 58,Honoraires sans dépassement,Conventionné secteur 1
+7,cardiologue,59100,BECQUART  JEAN,ENTRE A - RDC 33 RUE DUPLEIX 59100 ROUBAIX,03 20 24 44 65,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+8,cardiologue,59100,HONORE  HERVE,SELARL DU DOCTEUR HONORE HERVE 30 BOULEVARD DU GENERAL LECLERC 59100 ROUBAIX,03 20 70 80 59,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+9,cardiologue,59100,KOZLOWSKI  FRANCIS,LE PARC DES 7 LIEUX 33 RUE DUPLEIX ENTREE A 59100 ROUBAIX,03 20 26 26 22,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+10,cardiologue,59100,DEMARCQ  JEAN MICHEL,CABINET DU DR JEAN MICHEL DEMARCQ 33 RUE DUPLEIX 59100 ROUBAIX,03 20 99 31 31,Honoraires sans dépassement,Conventionné secteur 1
+11,cardiologue,59100,HAFFREINGUE  ERIC,SELARL CABINET DU DR HAFFREINGUE SELARL CAB DR HAFFREINGUE 30 BOULEVARD DU GENERAL LECLERC 59100 ROUBAIX,03 20 70 80 59,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+12,cardiologue,59100,LULUNGU  MARTIN,CABINET DU DR MARTIN LULUNGU 6 RUE DE LILLE 59100 ROUBAIX,03 20 66 14 80,Honoraires sans dépassement,Conventionné secteur 1
+13,cardiologue,59100,BECART  MICHEL,CABINET PRIVE DU DR MICHEL BECART C.H VICTOR PROVO BOULEVARD LACORDAIRE 11.17 59100 ROUBAIX,03 20 99 31 84,Honoraires sans dépassement,Conventionné secteur 1
+14,cardiologue,59100,DENNETIERE  STEPHANE,CH VICTOR PROVO BOULEVARD LACORDAIRE 11/17 59100 ROUBAIX,03 20 99 31 31,Honoraires sans dépassement,Conventionné secteur 1
+15,cardiologue,59100,HUBERT  EDOUARD,ENTREE A 33 RUE DUPLEIX 59100 ROUBAIX,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+16,cardiologue,59100,DHEEDENE  MARJORIE,CLINIQUE ST JEAN 34 RUE ST JEAN 59100 ROUBAIX,,Honoraires sans dépassement,Conventionné secteur 1
+17,cardiologue,59100,VAN DE WALLE  VERONIQUE,SELARL DOCTEUR TAVERNE SELARL DU DR VERONIQUE TA 33 RUE DUPLEIX 59100 ROUBAIX,03 20 24 44 65,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+18,cardiologue,59100,HAFTEL  YVES,BAT A 33 RUE DUPLEIX 59100 ROUBAIX,,Honoraires sans dépassement,Conventionné secteur 1
+19,cardiologue,59100,LEQUEUCHE  BRUNO,CABINET DU DR BRUNO LEQUEUCHE LE PARC DES SEPT LIEUX 33 RUE DUPLEIX BAT A 59100 ROUBAIX,03 20 70 51 59,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+20,cardiologue,59200,LEFEBVRE  JEAN MARIE,SELARL INTERCARD SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+21,cardiologue,59200,ELKOHEN  MARIAM,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires sans dépassement,Conventionné secteur 1
+22,cardiologue,59200,LEROY  FABRICE,SELARL INTERCARD SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+23,cardiologue,59200,DUQUENOY  STEPHANIE,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires sans dépassement,Conventionné secteur 1
+24,cardiologue,59200,CUVELIER HEROGUER  ESTELLE,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires sans dépassement,Conventionné secteur 1
+25,cardiologue,59200,RABAHI  FOUAD,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+26,cardiologue,59200,BAUCHART  JEAN JACQUES,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires sans dépassement,Conventionné secteur 1
+27,cardiologue,59200,ENDJAH  NIMA,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,,Honoraires sans dépassement,Conventionné secteur 1
+28,cardiologue,59200,FOURRIER  JEAN LOUIS,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+29,cardiologue,59200,LAURENT  JEAN MARC,382 CHAUSSEE DENIS PAPIN 59200 TOURCOING,03 20 94 69 87,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+30,cardiologue,59200,RICHARD  ADELAIDE,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires sans dépassement,Conventionné secteur 1
+31,cardiologue,59200,MARTIN  EMMANUEL,11 QUAI DE CHERBOURG 59200 TOURCOING,03 20 46 46 22,Honoraires libres,Conventionné secteur 2
+32,cardiologue,59200,POUVELLE  PHILIPPE,SELARL INTERCARD SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires sans dépassement,Conventionné secteur 1
+33,cardiologue,59200,VAKSMANN  GUY,13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+34,cardiologue,59200,HICKMAN  SABRINA,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+35,cardiologue,59200,MAES  DAMIEN,SELARL INTERCARD 13 QUAI DE CHERBOURG 59200 TOURCOING,03 20 26 26 22,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+36,cardiologue,59150,ENDJAH  NIMA,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+37,cardiologue,59150,LEFEBVRE  JEAN MARIE,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+38,cardiologue,59150,POUVELLE  PHILIPPE,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+39,cardiologue,59150,ELKOHEN  MARIAM,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+40,cardiologue,59150,LEROY  FABRICE,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+41,cardiologue,59150,BAUCHART  JEAN JACQUES,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+42,cardiologue,59150,RICHARD  ADELAIDE,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+43,cardiologue,59150,HICKMAN  SABRINA,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+44,cardiologue,59150,CHEBAHI  NASSIM,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+45,cardiologue,59150,VAKSMANN  GUY,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+46,cardiologue,59150,CUVELIER HEROGUER  ESTELLE,LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+47,cardiologue,59150,GENEL  CHRISTOPHE,328 RUE CARNOT 59150 WATTRELOS,03 20 75 88 01,Honoraires sans dépassement,Conventionné secteur 1
+48,cardiologue,59150,BELABBAS  ALI,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+49,cardiologue,59150,MAES  DAMIEN,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 2 avec contrat d'accès aux soins
+50,cardiologue,59150,BODART  JEAN CHRISTOPHE,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires sans dépassement,Conventionné secteur 1
+51,cardiologue,59150,FOURRIER  JEAN LOUIS,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
+52,cardiologue,59150,RABAHI  FOUAD,INTERCARD LE CARRE BERLIOZ 58 RUE PIERRE CATTEAU 59150 WATTRELOS,,Honoraires avec dépassements maîtrisés (contrat d'accès aux soins),Conventionné secteur 1 avec contrat d'accès aux soins
