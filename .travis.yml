@@ -3,6 +3,7 @@ language: python
 python:
   - 2.7
   - 3.2.5
+  - 3.3
 notifications:
   email: false
 
@@ -19,8 +20,9 @@ before_install:
 # Install packages
 install:
   #- conda install --yes python=$TRAVIS_PYTHON_VERSION numpy nose pandas beautifulsoup4
-  - conda install --yes numpy nose pandas beautifulsoup4
+  - conda install --yes numpy nose pandas beautifulsoup4 coverage
 
 # Run test
 script:
-  - nosetests --logging-level=INFO
+  - nosetests --logging-level=INFO --with-cov --cov new_parser
+  
