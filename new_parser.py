@@ -81,7 +81,7 @@ def make_single_query(specialty, location):
     for pagenumber in range(1, int(math.ceil(number_of_doctors / 20.)) + 1):
         r2 = s.post(r.url.replace("liste-resultats-page-1-par_page-20", 
                                   "liste-resultats-page-{}-par_page-20").format(pagenumber))
-        soup = BeautifulSoup(r2.text)
+        soup = BeautifulSoup(r2.text, 'html.parser')
         doctors = soup.findAll('div', attrs={"class":"item-professionnel"})
         dfs.append(pd.DataFrame([extract_information(doc) for doc in doctors], 
                  columns=['Nom', u'Adresse', u"Téléphone", u"Honoraires", "Convention"]))
