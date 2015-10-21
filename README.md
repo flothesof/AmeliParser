@@ -31,7 +31,8 @@ A good article on CI and testing: [http://www.deloittedigital.com/eu/blog/untest
 
 ## Configuring Travis-CI
 
-
+- [http://conda.pydata.org/docs/travis.html](http://conda.pydata.org/docs/travis.html)
+- a great Gist that got me pointed in the right direction [https://gist.github.com/dan-blanchard/7045057](https://gist.github.com/dan-blanchard/7045057)
 
 ## Configuring coverage
 
