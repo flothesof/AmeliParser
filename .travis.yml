@@ -1,8 +1,8 @@
-sudo: required
+#sudo: required
 language: python
 python:
   - 2.7
-  - 3.3
+  - 3.2
 notifications:
   email: false
 
@@ -14,8 +14,8 @@ before_install:
   - export PATH=/home/travis/miniconda/bin:$PATH
   - conda update --yes conda
   # The next couple lines fix a crash with multiprocessing on Travis and are not specific to using Miniconda
-  - sudo rm -rf /dev/shm
-  - sudo ln -s /run/shm /dev/shm
+  #- sudo rm -rf /dev/shm
+  #- sudo ln -s /run/shm /dev/shm
 # Install packages
 install:
   - conda install --yes python=$TRAVIS_PYTHON_VERSION numpy nose pandas beautifulsoup4
