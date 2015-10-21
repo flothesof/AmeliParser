@@ -1,4 +1,6 @@
-﻿[![Build Status](https://travis-ci.org/flothesof/AmeliParser.svg?branch=master)](https://travis-ci.org/flothesof/AmeliParser)
+﻿Build and coverage status using Travis-CI and coveralls.io:
+[![Build Status](https://travis-ci.org/flothesof/AmeliParser.svg?branch=master)](https://travis-ci.org/flothesof/AmeliParser)
+[![Coverage Status](https://coveralls.io/repos/flothesof/AmeliParser/badge.svg?branch=master&service=github)](https://coveralls.io/github/flothesof/AmeliParser?branch=master)
 
 # Description
 
@@ -22,3 +24,15 @@ df = new_parser.make_multiple_query('ophtalmologiste', ["59910", "59166", "59560
 ```
 
 This code is under BSD license.
+
+# Repository notes
+
+A good article on CI and testing: [http://www.deloittedigital.com/eu/blog/untested-code-is-broken-code-test-automation-in-enterprise-software-deliver](http://www.deloittedigital.com/eu/blog/untested-code-is-broken-code-test-automation-in-enterprise-software-deliver).
+
+## Configuring Travis-CI
+
+
+
+## Configuring coverage
+
+- [http://levibostian.com/python-code-coverage-and-coveralls-io/](http://levibostian.com/python-code-coverage-and-coveralls-io/)
