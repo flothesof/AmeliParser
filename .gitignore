@@ -164,3 +164,4 @@ pip-log.txt
 
 # IPython notebook checkpoints
 .ipynb_checkpoints
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
