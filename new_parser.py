@@ -11,6 +11,8 @@ import re
 from bs4 import BeautifulSoup
 import math
 
+AMELI_URL = 'http://annuairesante.ameli.fr'
+
 def extract_information(block):
     """
     returns name, address, phone, prices and convention from
@@ -56,7 +58,7 @@ def make_single_query(specialty, location):
     
     # create new session and open the connection to get cookies
     s = requests.Session()
-    r = s.get('http://ameli-direct.ameli.fr')
+    r = s.get(AMELI_URL)
     
     # extract the page towards which we make our first request
     p = re.compile('<form action="([\w\d/.-]+)" method="post">')
@@ -67,7 +69,7 @@ def make_single_query(specialty, location):
     payload = {"type":"ps",
         "ps_profession":specialty,
         "ps_localisation":location}
-    r = s.post("http://ameli-direct.ameli.fr" + suburl, params=payload,
+    r = s.post(AMELI_URL + suburl, params=payload,
           headers=headers)
     
     # extract information
